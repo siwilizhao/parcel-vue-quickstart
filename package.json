@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.0.0",
+    "babel-preset-env": "^1.6.1",
+    "less": "^3.0.1",
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.7.1",
+    "pug": "^2.0.3",
+    "stylus": "^0.54.5",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "name": "parcel-vue",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /"
+  },
+  "keywords": [],
+  "author": "siwi",
+  "license": "MIT",
+  "description": ""
+}
