@@ -18,14 +18,16 @@
   "dependencies": {
     "vue-hot-reload-api": "^2.3.0"
   },
-  "name": "parcel-vue",
+  "name": "parcel-vue-quickstart",
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html --public-url /"
   },
-  "keywords": [],
+  "keywords": [
+    "parcel-vue"
+  ],
   "author": "siwi",
   "license": "MIT",
   "description": ""
